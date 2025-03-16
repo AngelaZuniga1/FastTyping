@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.escriturarapida.controller.GameController">
+    <Label fx:id="palabraLabel" text="Palabra Aleatoria" />
+    <TextField fx:id="entradaTextField" />
+    <Button fx:id="validarButton" text="Validar" />
+    <ProgressBar fx:id="eclipseProgressBar" progress="1.0" />
+    <Label fx:id="tiempoLabel" text="Tiempo restante: 20" />
+    <Label fx:id="nivelLabel" text="Nivel: 1" />
+</VBox>
